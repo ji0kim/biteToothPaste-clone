@@ -1,0 +1,139 @@
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) {
+
+      /* a.f-md-70, a.section-header, button.f-md-70, button.section-header, span.f-md-70, span.section-header, p.f-md-70, p.section-header, h1.f-md-70, h1.section-header, h2.f-md-70, h2.section-header, h3.f-md-70, h3.section-header, h4.f-md-70, h4.section-header, h5.f-md-70, h5.section-header, h6.f-md-70, h6.section-header, div.f-md-70, div.section-header */
+
+h2, .f-85{ 
+   font-size: 6rem;  
+   letter-spacing: -3px; 
+}
+.f-24{ 
+      font-size: 2rem;
+}
+.better .f-24, .benefit .f-24{ 
+      font-size: 2.4rem;
+}
+.f-30{ 
+      font-size: 2.4rem;
+}
+.f-50{ 
+      font-size: 4rem;
+}
+.f-60 { 
+      font-size: 4rem;
+}
+main{ 
+     width: 100%; 
+}     
+.main-img{ 
+      height: auto;
+}
+.main-img .main-text{ 
+      width: 100%;
+}
+.logos-wrap-inner{ 
+      max-width: calc( 100vw - 60px);
+      margin: 0 auto;
+}
+.product-wrap { 
+      width: calc(33.3333vw - 20px);
+}
+.product-wrap .product{ 
+      height:calc(40vw - 20px);
+}
+
+.w-100 .w-50{ 
+      width: 100vw;
+      height: 80vw;
+}
+.w-100 .w-50 + .w-50{ 
+      width: 100vw;
+      height: auto;
+      padding: 3em 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.w-100 .w-50 .w-50-txt{ 
+      word-break: keep-all;
+      max-width: 55%;
+      line-height: 1.5;
+}
+.w-100 .w-50 .w-50-txt ul { 
+      padding-top: 20px;
+}
+.w-100 .w-50 .w-50-txt li { 
+      text-align: left;
+      padding: 0 100px;
+}
+.how-to .f-85{ 
+      font-size: 6.5rem;
+      letter-spacing: -5px;
+}
+.how-to > .w-50 > .gif-box{ 
+      width: 50vw;
+      height:300px;
+      background: url(/img/Bite---Bite-Brush-Repeat-Gif--4.gif) no-repeat;
+      background-size: cover;
+}
+.how-to .w-50 h3{ 
+      margin-bottom: 20px;
+}
+.empire h2 { 
+      max-width: 85%;
+      margin: 0 auto;
+      font-size: 6rem;
+      letter-spacing: -3px;
+}
+.empire p { 
+      margin-top: 1.5em;
+}
+.empire .tp-tubes{ 
+      padding-top: 50px;
+}
+.review .window{ 
+      height: 440px;
+}
+.review-window .review-box-wrap .review-box{ 
+      display: inline-block;
+      width: calc(50vw - 30px);
+      height: 200px;
+      margin: 10px;
+      background-color: #fff;
+      z-index: 100;
+      padding: 25px 30px;
+      /* box-sizing: border-box;
+      overflow: hidden; */
+}
+.review-window .review-box-wrap .review-box .quote{
+      display: -webkit-box; 
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp:3;
+}
+.review-window .review-box-wrap .review-box .name{ 
+      margin-bottom: 20px;
+}
+
+.email .email-inner{ 
+      width: calc(100vw - 50px);
+      min-width: 650px;
+     max-width: 900px;
+
+}
+.email .email-inner .email-txt{
+      padding-right: 0;
+}
+.email .email-inner .email-img{ 
+      width: 40%;
+}
+.footer-inner > ul > li{ 
+      height: 160px;
+      padding: 15px;
+}
+.footer-inner ul > li > ul > li{ 
+      padding-bottom: 5px;
+}
+}
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) { /*스타일입력*/}
